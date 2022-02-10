@@ -1,0 +1,276 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1601662528567-526cd06f6582?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=415&q=80);
+
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+}
+
+#nav {
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    height: 10%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#ln {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#ln h5 {
+    margin-left: 20px;
+    letter-spacing: 6px;
+    font-family: Centaur;
+}
+
+#cn {
+    margin-left: 15%;
+    display: flex;
+    width: 600px;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cn h5 {
+    font-family: Centaur;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+#rn {
+    margin-right: 30px;
+    display: flex;
+    width: 200px;
+    height: 100%;
+    justify-content: right;
+    align-items: center;
+}
+
+#rn h5 {
+    margin-right: 10px;
+    font-family: Centaur;
+    word-spacing: 2px;
+
+}
+
+#img1 {
+    position: relative;
+    margin-left: 50px;
+    width: 50%;
+    height: 87%;
+    background-image: url(https://images.unsplash.com/photo-1638039395420-aeb7b2e8a7f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+#img2 {
+    display: flex;
+    position: absolute;
+    top: 25%;
+    left: 75%;
+    width: 50%;
+    height: 55%;
+    background-image: url(https://images.unsplash.com/photo-1532153259564-a5f24f261f51?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+}
+
+#img2 #text1 #txt {
+    margin-top: 5px;
+    margin-left: 23%;
+    letter-spacing: 3px;
+    font-family: Centaur;
+    color: #333;
+}
+
+#img2 #text1 #txt1 {
+    margin-top: 60px;
+    margin-left: 110px;
+    word-spacing: 3px;
+    letter-spacing: 1.5px;
+    font-family: Centaur;
+    color: rgb(194, 184, 166);
+}
+
+#img2 #text1 #txt2 {
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align: center;
+    word-spacing: 3px;
+    letter-spacing: 1.5px;
+    font-family: Centaur;
+    color: rgb(194, 184, 166);
+}
+
+#img2 #text1 #txt3 {
+    text-align: center;
+    margin-top: 125px;
+    word-spacing: 2px;
+    letter-spacing: 4px;
+    font-family: Centaur;
+    color: #333;
+}
+
+#img2 #text1 #txt4 {
+    position: absolute;
+    top: 60%;
+    left: 37%;
+    font-size: 80px;
+    font-weight: 10px;
+    color: rgb(194, 184, 166);
+}
+
+#img3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 100%;
+    background-image: url(https://images.unsplash.com/photo-1624431403074-c83ccfe2475f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=411&q=80);
+    background-position: center;
+}
+
+#img3 #line {
+    margin-top: 10px;
+    margin-left: -250px;
+    width: 100%;
+    border-top: 2px solid #fff;
+    transform: rotate(50deg);
+}
+
+#main #text2 {
+    position: absolute;
+    left: 65%;
+    top: 83%;
+}
+
+#text2 h3 {
+    text-align: center;
+    word-spacing: 2px;
+    font-size: 30px;
+    font-family: Centaur;
+}
+
+#text2 h4 {
+    margin-top: 40px;
+    letter-spacing: 70px;
+    font-family: Centaur;
+}
+
+#main #text3 {
+    position: absolute;
+    top: 20%;
+    left: 65%;
+}
+
+#text3 h2 {
+    margin-top: -10px;
+    margin-left: -25px;
+    font-family: Voyage;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-size: 50px;
+    color: rgb(194, 184, 166);
+}
+
+#text3 #dot {
+    position: absolute;
+    top: -30px;
+    left: -20px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+#text3 #circle {
+    margin-top: -110px;
+    margin-left: 300px;
+    width: 190px;
+    height: 190px;
+    border: 2px solid rgb(194, 184, 166);
+    border-radius: 50%;
+}
+
+#text3 #circle h3 {
+    margin-top: 80px;
+    text-align: center;
+    font-family: Centaur;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+@media(max-width:500px) {
+    #nav {
+        width: 186%;
+    }
+
+    #img1 {
+        width: 96%;
+    }
+
+    #text3 #circle {
+        width: 90px;
+        height: 90px;
+        margin-top: 0px;
+        margin-left: 415px;
+    }
+
+    #text3 #circle h3 {
+        margin-top: 32px;
+        font-size: 11px;
+    }
+
+    #main #text2 {
+        left: 512px;
+    }
+
+    #img3 #line {
+        margin-top: 44px;
+        margin-left: -124px;
+    }
+
+    #img2 #text1 #txt3 {
+        margin-top: 82px;
+    }
+
+    #text3 h2 {
+        margin-top: -1px;
+        margin-left: 184px;
+    }
+
+    #text3 #dot {
+        left: 186px;
+    }
+
+    #img2 #text1 #txt1 {
+        margin-top: 51px;
+        margin-left: 42px;
+        word-spacing: -1px;
+    }
+
+    #img2 #text1 #txt {
+        margin-left: 5%;
+    }
+
+    #img2 #text1 #txt4 {
+        position: absolute;
+        top: 68%;
+        left: 34%;
+        font-size: 68px;
+    }
+}
